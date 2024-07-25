@@ -9,14 +9,10 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "Jun 2023 - Present",
     role: "Software Developer",
     company: "CarTradeTech",
-    description: `• Enhanced the design of over 10+ dealer websites to improve SEO rankings, resulting in increased visibility and user
-engagement. .
-• Improved Documentation of Oxygen library and wrote more than 5 components unit test cases on JEST
-• Contributed research on micro-frontend architecture and enhanced my understanding of agile methodologies
-applied at CarWale.
+    description: `I have developed 7 new components including Camera, DynamicInfoBar, AnimatedThankYouHeader, ExpandCollapse, InputLegend, Image, and Switch, while maintaining the existing Oxygen component library with 50+ components in both React and React Native, ensuring design consistency, thorough testing, and clear documentation. I initiated research on reducing DOM size using counter-based hashing (reducing from 6 characters to 2-3 characters) and developed 2 new React hooks for efficient component tracking and DOM reduction. Additionally, I migrated components to the Ozone components system, facilitating multi-platform use of 20+ common higher-order components. I created responsive micro-sites using vanilla JS, such as Women In Mobility, and optimized website performance by reducing DOM nodes in over 5 components. I led the integration of the Sell Vehicle Flow, replacing old design patterns and creating a 10-fold screen design for Bikewale. I explored React Native Reanimated and created an optimized version of DraggableFabButton for the CarWale app. Furthermore, I implemented browser-level and JavaScript-level lazy loading for the image component, significantly enhancing load times and performance site-wide.
 `,
     technologies: [
       "Javascript",
@@ -29,25 +25,12 @@ applied at CarWale.
   },
 
   {
-    year: "2023 - Present",
-    role: "Software Developer",
+    year: "Mar 2023 - Apr 2023",
+    role: "Software Developer Intern",
     company: "CarTradeTech",
-    description: `• Developed 7 new components - Camera, DynamicInfoBar, AnimatedThankYouHeader, Expand Collapse,
-InputLegend, Image, and Switch.
-• Maintained their exisiting Oxygen component library having 50+ components in both React and React Native,
-emphasizing design consistency, thorough testing, and clear documentation
-• Initiated Research on reducing DOM size by using counter based hashing (from 6 characters to 2-3 character)
-• Developed 2 new react hooks to track components efficiently for DOM reduction and tracking purposes
-• Migrated Components to Ozone components system, facilitating multi-platform use of 20+ common higher-order
-components.
-• Created Responsive Micro-sites using vanilla js, such as Women In Mobility.
-• Optimized website performance through DOM Node reduction on more than 5 components effectively reducing DOM
-element overall.
-• Lead the Integration of Sell Vehicle Flow to replace old design patterns and create a 10 fold screens design for
-product Bikewale.
-• Explored React Native Reanimated and created optimized version of DraggableFabButton for carwale app.
-• Implemented browser-level and JavaScript-level lazy loading for the image component, significantly enhancing load
-times and performance for all image components site-wide`,
+    description: `
+    I have enhanced the design of over 10 dealer websites to improve SEO rankings, resulting in increased visibility and user engagement. I improved the documentation of the Oxygen library and wrote unit test cases for over 5 components using JEST. Additionally, I contributed research on micro-frontend architecture and deepened my understanding of agile methodologies applied at CarWale.
+    `,
     technologies: [
       "Javascript",
       "React.js",
@@ -63,9 +46,7 @@ export const PROJECTS = [
   {
     title: "Chatify - web chat Application",
     image: project1,
-    description: `• Deployed a robust real time communication service written in nodejs with easy to use accessible web interface
-• Features include authentication with validation, One-to-one chat, Group chat, Authorization where group admin
-can edit or remove group users, for image storage it uses Cloudinary`,
+    description: `I deployed a robust real-time communication service written in Node.js with an accessible web interface, featuring authentication with validation, one-to-one chat, group chat, and authorization allowing group admins to edit or remove group users. The service also utilizes Cloudinary for image storage.`,
     technologies: [
       "HTML",
       "CSS",
@@ -81,17 +62,13 @@ can edit or remove group users, for image storage it uses Cloudinary`,
   {
     title: "NetflixGPT",
     image: project2,
-    description: `• Developed Netflix GPT, a Netflix clone, integrating GPT search capabilities for faster search results and an enhanced
-browsing and viewing experience, bolstered by multi-language support.
-• Deployed on Firebase, thus allowing us to vertically scale for large user base`,
+    description: `I developed Netflix GPT, a Netflix clone that integrates GPT search capabilities for faster search results and an enhanced browsing and viewing experience, bolstered by multi-language support. The application was deployed on Firebase, allowing it to scale vertically for a large user base.`,
     technologies: ["HTML", "CSS", "Firebase", "Tailwind CSS", "Redux"],
   },
   {
     title: "URL shortener",
     image: project4,
-    description: `• Compressed lengthy URLs using advanced algorithms , transforming them into concise, memorable links,increased
-Click-through rates and enhance tracking accuracy for marketing campaigns
-• Features includes Authentication and authorization, Custom short URLs, Link expiration, and deactivation`,
+    description: `I compressed lengthy URLs using advanced algorithms, transforming them into concise, memorable links, which increased click-through rates and enhanced tracking accuracy for marketing campaigns. The features include authentication and authorization, custom short URLs, link expiration, and deactivation.`,
     technologies: ["HTML", "CSS", "REact.js", "Express", "MongoDB"],
   },
   {

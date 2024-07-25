@@ -4,7 +4,7 @@ import { ABOUT_TEXT } from '../constants'
 
 function About() {
   return (
-    <div className='border-b broder-neautral-800 pb-4'>
+    <div className='border-b border-pink-300 pb-4'>
         <h2 className='my-20 text-center text-4xl text-red-800'>About
         <span className='text-indigo-300'> Me</span>
         </h2>
