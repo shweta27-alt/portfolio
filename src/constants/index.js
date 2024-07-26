@@ -82,7 +82,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "A-303, shanti dham, Adharwadi chowk, Kalyan",
-  phoneNo: "+91 8850555867",
+  address: "Mumbai, Maharashtra",
+  // phoneNo: "+91 8850555867",
   email: "shwetasaindane27@email.com",
 };
