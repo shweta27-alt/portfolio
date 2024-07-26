@@ -3,7 +3,7 @@ import project2 from "../assets/Projects/project-2.jpg";
 import project3 from "../assets/Projects/project-3.jpg";
 import project4 from "../assets/Projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Node.js, Express and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React, Javascript as well as back-end technologies like Node.js, Express and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1 years of professional experience, I have worked with a variety of technologies, including React, Node.js, Express and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -54,28 +54,30 @@ export const PROJECTS = [
       "Node.js",
       "MongoDB",
       "Socket.io",
-      "Cloudinary",
       "Passport.js",
-      "Express-session",
     ],
+    live: "https://chatify-app-zeta.vercel.app/auth/login"
   },
   {
     title: "NetflixGPT",
     image: project2,
     description: `I developed Netflix GPT, a Netflix clone that integrates GPT search capabilities for faster search results and an enhanced browsing and viewing experience, bolstered by multi-language support. The application was deployed on Firebase, allowing it to scale vertically for a large user base.`,
     technologies: ["HTML", "CSS", "Firebase", "Tailwind CSS", "Redux"],
+    live: "https://netflix-gpt-omega-virid.vercel.app/"
   },
   {
     title: "URL shortener",
     image: project4,
     description: `I compressed lengthy URLs using advanced algorithms, transforming them into concise, memorable links, which increased click-through rates and enhanced tracking accuracy for marketing campaigns. The features include authentication and authorization, custom short URLs, link expiration, and deactivation.`,
     technologies: ["HTML", "CSS", "REact.js", "Express", "MongoDB"],
+    live:"https://urlshortner-app-rho.vercel.app/login"
   },
   {
     title: "Portfolio Website",
     image: project3,
     description: `A personal portfolio website showcasing projects, skills, and contact information.`,
     technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
+    live: "https://portfolio-nu-flax-38.vercel.app/"
   },
 ];
 
