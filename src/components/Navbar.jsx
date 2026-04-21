@@ -18,7 +18,7 @@ function Navbar() {
         <a href="https://www.instagram.com/shweta__________27/?igsh=dTkwY3RnNGo0YWVz&utm_source=qr" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </a>
-        <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://leetcode.com/u/shweta272/" target="_blank" rel="noopener noreferrer">
           <FaCode />
         </a>
       </div>
